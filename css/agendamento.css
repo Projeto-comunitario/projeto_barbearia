@@ -41,3 +41,42 @@ footer{
     margin-top: 10%;
     background-color: rgb(46, 11, 11)
 }
+
+div.calendary {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  label {
+    display: inline-block;
+    width: 300px;
+  }
+  
+  input:invalid + span:after {
+    content: "✖";
+    padding-left: 5px;
+  }
+  
+  input:valid + span:after {
+    content: "✓";
+    padding-left: 5px;
+  }
+
+  input.datas{
+    display: flex;
+    padding-bottom: 2%;
+  }
+  
+  label.horas {
+    display: block;
+    font:
+      1rem 'Fira Sans',
+      sans-serif;
+  }
+  
+  input,
+  label.horas {
+    margin: 0.4rem 0;
+  }
+  

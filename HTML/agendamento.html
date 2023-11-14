@@ -31,13 +31,34 @@
             </div>
         </div>
     </header>
-    <div class="container-fluid">
-        <div class="row" style="padding-top: 50px; background-color: rgb(255, 255, 255);">
-            <div class="col" style="padding-inline: 100px;">
-                <h1>Agendamento</h1>
-                <p>Vamos agendar seu Serviço?</p>
-            </div>
+        <div class="container-fluid">
+            <div class="row" style="padding-top: 50px; background-color: rgb(255, 255, 255);">
+                <div class="col" style="padding-inline: 100px;">
+                    <h1>Agendamento</h1>
+                    <p>Vamos agendar seu Serviço?</p>
+                    </br>
+                </div>
+            <form>
+                <div class="calendary">
+                  <label for="calendario">Informe a data do agendamento:</label></br>
+                    <input type="date"
+                        id="datas"
+                        name="calendario"
+                        required
+                        pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" 
+                        min="2023-11-14" />
+                    <span class="validity"></span>
+                </div>
+                    <label class="hora" for="appt">Hórario:</label>
+                        <input type="time" id="appt" name="appt" min="09:00" max="18:00" required />
+                        <small>Hórario comercial</small>
+
+                <div>
+                  <input type="submit"/>
+                </div>
+            </form>                
         </div>
+
     <footer>
         <div class="container-fluid">
             <div class="row">
