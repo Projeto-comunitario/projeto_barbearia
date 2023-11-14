@@ -9,10 +9,6 @@ header {
     background-color: rgb(46, 11, 11);
 }
 
-li {
-    color: rgb(0, 0, 0);
-}
-
 a.navbar {
     background-color: rgb(46, 11, 11);
     color: rgb(255, 255, 255);
@@ -37,13 +33,10 @@ h2 {
     padding-top: 12%;
     
 }
+
 p {
     text-align: justify;
     color: rgb(0, 0, 0);
-}
-
-footer {
-    background-color: rgb(46, 11, 11);
 }
 
 .rodape{
@@ -61,4 +54,5 @@ footer {
 
 footer{
     margin-top: 10%;
+    background-color: rgb(46, 11, 11)
 }
