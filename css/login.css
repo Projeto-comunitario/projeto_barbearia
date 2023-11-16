@@ -9,8 +9,8 @@
 }
 
 #logo{
-    width: 30%;
-    height: 35%;
+    width: 40%;
+    height: 50%;
     margin-left: 50%;
     transform: translate(-50%);
 }
@@ -25,7 +25,6 @@
 }
 
 #senha{
-    margin-top: 5%;
     width: 44%;
 }
 
@@ -40,5 +39,5 @@
 #forgot{
     text-decoration: none;
     padding-top: -50%;
-    padding-left: 50%;
+    padding-left: 30%;
 }
