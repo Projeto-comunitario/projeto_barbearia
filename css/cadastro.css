@@ -10,7 +10,7 @@
 
 #logo{
     width: 30%;
-    height: 35%;
+    height: 90%;
     margin-left: 50%;
     transform: translate(-50%);
 }
@@ -27,18 +27,4 @@
 #senha{
     margin-top: 5%;
     width: 44%;
-}
-
-#check{
-    margin-top: 5%;
-}
-
-#label_check{
-    color: white;
-}
-
-#forgot{
-    text-decoration: none;
-    padding-top: -50%;
-    padding-left: 50%;
 }
