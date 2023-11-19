@@ -10,14 +10,14 @@
 <body style="background-color: rgb(255, 255, 255);">
     <div id="bg">
         <img id="logo" src="../img/logotipo_barbearia.png" alt="Não foi possível carregar a imagem.">
-        <form action="cadastro.php" method="post">
+        <form action="../PHP/cadastrar.php" method="post">
+            <label for="nome" class="label">Nome:</label>
+            <input type="text" name="nome" id="nome">
+            <br>
             <label for="email" class="label">Email:</label>
             <input type="email" name="email" id="email">
             <br>
             <label for="senha" class="label">Senha:</label>
-            <input type="password" name="senha" id="senha">
-            <br>
-            <label for="senha" class="label">Confirme sua senha:</label>
             <input type="password" name="senha" id="senha">
             <br>
             <div class="d-grid gap-2 col-6 mx-auto">
