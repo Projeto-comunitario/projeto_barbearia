@@ -70,6 +70,8 @@ p {
 }
 
 footer{
+    border-top-right-radius: 4cap;
+    border-top-left-radius: 4cap;
     margin-top: 5%;
     background-color: rgb(46, 11, 11)
 }
