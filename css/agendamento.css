@@ -1,45 +1,47 @@
 body {
-    background-color: rgb(255, 255, 255);
-    position: relative;
-    overflow-x: hidden;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  overflow-x: hidden;
 }
 
 header {
-    text-align: center;
-    align-items: center;
-    display: flex;
-    background-color: rgb(46, 11, 11);
+  text-align: center;
+  align-items: center;
+  display: flex;
+  background-color: rgb(46, 11, 11);
 }
 
 h2 {
-    color: white;
-    text-align: center;
-    padding-top: 12%;
+  color: white;
+  text-align: center;
+  padding-top: 12%;
 }
 
 a.navbar {
-    background-color: rgb(46, 11, 11);
-    color: rgb(255, 255, 255);
-    border: 2px solid black;
-    border-radius: 5%;
-    width: 8%;
-    text-align: center;
-    margin-left: 50%;
-    transform: translate(-50%);
+  background-color: rgb(46, 11, 11);
+  color: rgb(255, 255, 255);
+  border: 2px solid black;
+  border-radius: 5%;
+  width: 8%;
+  text-align: center;
+  margin-left: 50%;
+  transform: translate(-50%);
 }
 
 #btn_login{
-    margin-top: 13%;
-    margin-bottom: 0%;
+  margin-top: 13%;
+  margin-bottom: 0%;
 }
 
 .rodape{
-    color: white;
+  color: white;
 }
 
 footer{
-    margin-top: 10%;
-    background-color: rgb(46, 11, 11)
+  border-top-right-radius: 4cap;
+  border-top-left-radius: 4cap;
+  margin-top: 10%;
+  background-color: rgb(46, 11, 11)
 }
 
 div.calendary {
