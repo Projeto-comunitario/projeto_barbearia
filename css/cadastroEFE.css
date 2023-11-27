@@ -1,0 +1,26 @@
+body{
+    background-image: url(../img/PlanoDeFundo.png);
+}
+
+#bg{
+    background-color: rgba(0, 0, 0, 0.719);;
+    height: 500px;
+    width: 40%;
+    border: 2px solid red;
+    border-radius: 5%;
+    margin-left: 50%;
+    margin-top: 10%;
+    transform: translate(-50%);    
+}
+
+#logo{
+    width: 30%;
+    height: 90%;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+h2{
+    text-align: center;
+    color: white;
+}

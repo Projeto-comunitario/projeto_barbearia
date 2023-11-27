@@ -12,11 +12,8 @@
     $sql = "INSERT INTO usuarios (nome, email, senha) VALUES ('$nome', '$email', '$senha')";
 
     if ($conexao->query($sql) === TRUE) {
-        echo "Usuário cadastrado com sucesso!";
-        header("location: ../HTML/login.html");
-    } else {
-        echo "Erro ao cadastrar usuário: " . $conexao->error;
-    }
-
+        header("location: ../HTML/cadastroEFE.html");
+    } 
+    
     $conexao->close();
 ?>

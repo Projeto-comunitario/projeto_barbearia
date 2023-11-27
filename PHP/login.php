@@ -12,7 +12,7 @@
     $resultado = $conexao->query($sql);
 
     if ($resultado->num_rows > 0) {
-        header("location: ../HTML/index.html");
+        header("location: ../HTML/loginEFE.html");
     } else {
         echo "E-mail ou senha incorretos.";
     }
