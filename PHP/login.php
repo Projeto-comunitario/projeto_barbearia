@@ -14,7 +14,7 @@
     if ($resultado->num_rows > 0) {
         header("location: ../HTML/loginEFE.html");
     } else {
-        echo "E-mail ou senha incorretos.";
+        header("location: ../HTML/incorretos.html");
     }
 
     $conexao->close();
