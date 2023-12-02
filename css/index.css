@@ -31,6 +31,8 @@ h1 {
     padding-bottom: 30px;
 }
 
+
+
 .nome-barbearia {
     font-size: 130%;
     color: white;
@@ -44,9 +46,10 @@ p {
 }
 
 .polaroid {
-    margin-left: 50% ;
+    margin-left: 55%;
+    margin-bottom: 10%;
     transform: translate(-50%);
-    width: 70%;
+    width: 300px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -133,3 +136,16 @@ footer{
     content: counter(li-counter);
     counter-increment: li-counter;
 }
+
+#imgbarber{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    @media screen and (max-width: 600px){
+      #imgbarber{
+        width: 300px;
+        flex-direction: column;
+      }
+    }   
